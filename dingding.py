@@ -3,9 +3,9 @@ from dingtalkchatbot.chatbot import DingtalkChatbot
 
 def create_monitor_flow(content):
     # webhook 通过钉钉群添加机器人可获取
-    webhook = ''
+    webhook = 'https://oapi.dingtalk.com/robot/send?access_token=85944d912445100ccd60ce9814faee01bf396e8da63e2d6a4355812b165ee8c2'
 
-    if webhook == '':
+    if webhook == 'https://oapi.dingtalk.com/robot/send?access_token=85944d912445100ccd60ce9814faee01bf396e8da63e2d6a4355812b165ee8c2':
         return
 
     xiaoding = DingtalkChatbot(webhook)
